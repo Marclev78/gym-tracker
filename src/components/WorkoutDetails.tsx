@@ -1,12 +1,11 @@
-import React from 'react';
 import {
   Box,
   Typography,
-  IconButton,
+  // IconButton,
   Paper,
   Button,
 } from '@mui/material';
-import { Add, Remove } from '@mui/icons-material';
+// import { Add, Remove } from '@mui/icons-material';
 import { NavLink } from 'react-router';
 
 export default function WorkoutDetail() {
@@ -79,9 +78,9 @@ export default function WorkoutDetail() {
               }}
             >
               <Typography>Reps:</Typography>
-              <IconButton size="small"><Remove /></IconButton>
+              {/*<IconButton size="small"><Remove /></IconButton>*/}
               <Typography>10</Typography>
-              <IconButton size="small"><Add /></IconButton>
+              {/*<IconButton size="small"><Add /></IconButton>*/}
             </Box>
 
             {/* Kg group */}
@@ -98,9 +97,9 @@ export default function WorkoutDetail() {
               }}
             >
               <Typography>Kg:</Typography>
-              <IconButton size="small"><Remove /></IconButton>
+              {/*<IconButton size="small"><Remove /></IconButton>*/}
               <Typography>60</Typography>
-              <IconButton size="small"><Add /></IconButton>
+              {/*<IconButton size="small"><Add /></IconButton>*/}
             </Box>
           </Box>
         </Paper>
@@ -123,9 +122,9 @@ export default function WorkoutDetail() {
               }}
             >
               <Typography>Reps:</Typography>
-              <IconButton size="small"><Remove /></IconButton>
+              {/*<IconButton size="small"><Remove /></IconButton>*/}
               <Typography>8</Typography>
-              <IconButton size="small"><Add /></IconButton>
+              {/*<IconButton size="small"><Add /></IconButton>*/}
             </Box>
 
             <Box
@@ -141,9 +140,9 @@ export default function WorkoutDetail() {
               }}
             >
               <Typography>Kg:</Typography>
-              <IconButton size="small"><Remove /></IconButton>
+              {/*<IconButton size="small"><Remove /></IconButton>*/}
               <Typography>65</Typography>
-              <IconButton size="small"><Add /></IconButton>
+              {/*<IconButton size="small"><Add /></IconButton>*/}
             </Box>
           </Box>
         </Paper>
